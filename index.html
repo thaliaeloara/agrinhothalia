@@ -1,0 +1,103 @@
+<<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Verde</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0fdf4;
+      color: #2f4f4f;
+    }
+    header {
+      background-color: #a3d9a5;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 48px;
+      color: #004d00;
+    }
+    nav {
+      background-color: #006400;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 300px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card p {
+      padding: 15px;
+    }
+    footer {
+      background-color: #004d00;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mundo Verde</h1>
+    <p>Celebrando a beleza da natureza em todos os cantos</p>
+  </header>
+
+  <nav>
+    <a href="#historia">História</a>
+    <a href="#destaques">Destaques</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="historia">
+    <h2>Nossa Conexão com a Natureza</h2>
+    <p>A natureza sempre foi fonte de vida, cura e inspiração. Com florestas exuberantes, oceanos profundos e uma biodiversidade incrível, o planeta nos oferece tudo de que precisamos. Este site é um tributo à sua beleza e importância.</p>
+  </section>
+
+  <section id="destaques">
+    <h2>Destaques Naturais</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/418831/pexels-photo-418831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Floresta">
